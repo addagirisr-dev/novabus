@@ -9,7 +9,7 @@ description = "Dependency-free, in-process, priority-aware event bus for asyncio
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-authors = [{ name = "Sameer Addagiri", email = "addagiri.sameer@gmail.com" }]
+authors = [{ name = "addagirisr-dev", email = "295608652+addagirisr-dev@users.noreply.github.com" }]
 keywords = ["eventbus", "asyncio", "pubsub", "event-driven", "priority-queue"]
 classifiers = [
     "Development Status :: 3 - Alpha",
