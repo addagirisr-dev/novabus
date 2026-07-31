@@ -23,8 +23,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/addagirisameer-oss/novabus"
-Issues = "https://github.com/addagirisameer-oss/novabus/issues"
+Homepage = "https://github.com/addagirisr-dev/novabus"
+Issues = "https://github.com/addagirisr-dev/novabus/issues"
 
 [project.optional-dependencies]
 test = ["pytest"]
