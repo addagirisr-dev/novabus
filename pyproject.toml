@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novabus"
+version = "0.1.0"
+description = "Dependency-free, in-process, priority-aware event bus for asyncio apps."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Sameer Addagiri", email = "addagiri.sameer@gmail.com" }]
+keywords = ["eventbus", "asyncio", "pubsub", "event-driven", "priority-queue"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Libraries",
+    "Framework :: AsyncIO",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/addagirisameer-oss/novabus"
+Issues = "https://github.com/addagirisameer-oss/novabus/issues"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["novabus*"]
+
+[tool.setuptools.package-data]
+novabus = ["py.typed"]
