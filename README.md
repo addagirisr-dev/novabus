@@ -5,7 +5,7 @@ A dependency-free, in-process, priority-aware event bus for Python asyncio apps.
 No PyQt5, no Redis, no broker to run. Pure stdlib (`asyncio` + `collections`).
 
 ```bash
-pip install -e .   # from this directory, until it's published
+pip install novabus
 ```
 
 ## Usage
@@ -46,6 +46,11 @@ bypassing the queue.
 
 ## Benchmark
 
-`python bench.py` publishes 200k events and measures end-to-end delivery.
+`python tests/bench.py` publishes 200k events and measures end-to-end delivery.
 On a typical dev machine: **~245k events/sec** in normal (priority-queue)
 mode, **~800k events/sec** in `high_rate_mode`.
+
+## Links
+
+- Source: https://github.com/addagirisr-dev/novabus
+- PyPI: https://pypi.org/project/novabus/

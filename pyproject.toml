@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "novabus"
-version = "0.1.1"
+version = "0.1.2"
 description = "Dependency-free, in-process, priority-aware event bus for asyncio apps."
 readme = "README.md"
 requires-python = ">=3.8"
